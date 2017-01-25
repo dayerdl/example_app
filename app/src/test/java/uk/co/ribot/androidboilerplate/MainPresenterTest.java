@@ -37,7 +37,7 @@ public class MainPresenterTest {
     @Before
     public void setUp() {
         mMainPresenter = new MainPresenter(mMockDataManager);
-        mMainPresenter.attachView(mMockMainMvpView);
+        //mMainPresenter.attachView(mMockMainMvpView);
     }
 
     @After
