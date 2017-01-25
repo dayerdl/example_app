@@ -13,11 +13,12 @@ import uk.co.ribot.androidboilerplate.injection.module.ApplicationModule;
 
 public class BoilerplateApplication extends Application  {
 
-    ApplicationComponent mApplicationComponent;
+    // ApplicationComponent mApplicationComponent;
 
     @Override
     public void onCreate() {
         super.onCreate();
+        //
 
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
