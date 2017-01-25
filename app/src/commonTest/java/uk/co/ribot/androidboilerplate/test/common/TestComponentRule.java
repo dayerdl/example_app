@@ -1,4 +1,4 @@
-package uk.co.ribot.androidtest.test.common;
+package uk.co.ribot.androidboilerplate.test.common;
 
 import android.content.Context;
 
@@ -6,11 +6,11 @@ import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
-import uk.co.ribot.androidtest.BoilerplateApplication;
-import uk.co.ribot.androidtest.data.DataManager;
-import uk.co.ribot.androidtest.test.common.injection.component.DaggerTestComponent;
-import uk.co.ribot.androidtest.test.common.injection.component.TestComponent;
-import uk.co.ribot.androidtest.test.common.injection.module.ApplicationTestModule;
+import uk.co.ribot.androidboilerplate.BoilerplateApplication;
+import uk.co.ribot.androidboilerplate.data.DataManager;
+import uk.co.ribot.androidboilerplate.test.common.injection.component.DaggerTestComponent;
+import uk.co.ribot.androidboilerplate.test.common.injection.component.TestComponent;
+import uk.co.ribot.androidboilerplate.test.common.injection.module.ApplicationTestModule;
 
 /**
  * Test rule that creates and sets a Dagger TestComponent into the application overriding the

@@ -1,4 +1,4 @@
-package uk.co.ribot.androidtest.test.common.injection.module;
+package uk.co.ribot.androidboilerplate.test.common.injection.module;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,9 +7,9 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-import uk.co.ribot.androidtest.data.DataManager;
-import uk.co.ribot.androidtest.data.remote.RibotsService;
-import uk.co.ribot.androidtest.injection.ApplicationContext;
+import uk.co.ribot.androidboilerplate.data.DataManager;
+import uk.co.ribot.androidboilerplate.data.remote.RibotsService;
+import uk.co.ribot.androidboilerplate.injection.ApplicationContext;
 
 import static org.mockito.Mockito.mock;
 

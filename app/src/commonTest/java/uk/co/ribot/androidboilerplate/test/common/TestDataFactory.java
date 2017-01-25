@@ -1,13 +1,13 @@
-package uk.co.ribot.androidtest.test.common;
+package uk.co.ribot.androidboilerplate.test.common;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-import uk.co.ribot.androidtest.data.model.Name;
-import uk.co.ribot.androidtest.data.model.Profile;
-import uk.co.ribot.androidtest.data.model.Ribot;
+import uk.co.ribot.androidboilerplate.data.model.Name;
+import uk.co.ribot.androidboilerplate.data.model.Profile;
+import uk.co.ribot.androidboilerplate.data.model.Ribot;
 
 /**
  * Factory class that makes instances of data models with random field values.
