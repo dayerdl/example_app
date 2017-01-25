@@ -13,7 +13,7 @@ import uk.co.ribot.androidboilerplate.injection.module.ApplicationModule;
 
 public class BoilerplateApplication extends Application  {
 
-    // ApplicationComponent mApplicationComponent;
+     ApplicationComponent mApplicationComponent;
 
     @Override
     public void onCreate() {
