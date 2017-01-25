@@ -47,7 +47,7 @@ public class MainPresenterTest {
 
     @Test
     public void loadRibotsReturnsRibots() {
-        List<Ribot> ribots = TestDataFactory.makeListRibots(10);
+       // List<Ribot> ribots = TestDataFactory.makeListRibots(10);
         when(mMockDataManager.getRibots())
                 .thenReturn(Observable.just(ribots));
 
